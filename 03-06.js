@@ -511,7 +511,7 @@ function toggle_payload(pld){
 	}else if(fw=="751"){
 			PLfile = 'goldhen1v751.bin';
 	}
-		preloadScripts['oldjb1.js', 'loaderx.js'];			
+		preloadScripts(['oldjb1.js', 'loaderx.js']);		
 	}else if(pld == "toolbox"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		PLfile = 'Toolbox.bin';
