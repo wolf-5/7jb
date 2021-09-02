@@ -582,7 +582,7 @@ function toggle_payload(pld){
 		preloadScripts['oldjb1.js', 'loaderx.js'];
 	}else if(pld == "webrte755"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
-		PLfile = 'webrte.bin';
+		PLfile = 'webrte755.bin';
 		preloadScripts['oldjb1.js', 'loaderx.js'];
 	}else if(pld == "fan"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
