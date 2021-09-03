@@ -9,7 +9,7 @@ Cacheoldjb4.manifest
 disableupdates.bin
 dumper.bin
 enableupdates.bin
-fanThreshold.bin
+fanThreshold.js
 frontend.js
 ftp.bin
 goldhen1v750.bin
