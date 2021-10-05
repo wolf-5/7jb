@@ -488,7 +488,7 @@ function toggle_payload(pld){
     if(pld == "hen213b"){
 		document.getElementById("progress").innerHTML="Loading Hen v2.1.3b ... Please wait..";
 		PLfile = 'hen213b.bin';
-		preloadScripts(['j06-03.js', 'loaderx.js']);
+		preloadScripts(['j03-06.js', 'loaderx.js']);
 	}else if(pld == "binloader"){
 		document.getElementById("progress").innerHTML="Awaiting Payload.. Send Payload to port 9021..";
 		preloadScripts(['preloader.js', 'loader.js']);
@@ -501,7 +501,7 @@ function toggle_payload(pld){
 	}else if(fw=="751"){
 			PLfile = 'goldhen751.bin';
 	}
-		preloadScripts(['j06-03.js', 'loaderx.js']);
+		preloadScripts(['j03-06.js', 'loaderx.js']);
 	}else if(pld == "goldhenold"){
 		document.getElementById("progress").innerHTML="Loading GoldHenv1.0.. Please wait..";
 	if(fw=="755"){
@@ -511,107 +511,107 @@ function toggle_payload(pld){
 	}else if(fw=="751"){
 			PLfile = 'goldhen1v751.bin';
 	}
-		preloadScripts(['j06-03.js', 'loaderx.js']);			
+		preloadScripts(['j03-06.js', 'loaderx.js']);			
 	}else if(pld == "toolbox755"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		PLfile = 'toolbox.bin';
-		preloadScripts['j06-03.js', 'loaderx.js'];
+		preloadScripts['j03-06.js', 'loaderx.js'];
 	}else if(pld == "backup"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		PLfile = 'backup.bin';
-		preloadScripts['j06-03.js', 'loaderx.js'];
+		preloadScripts['j03-06.js', 'loaderx.js'];
 	}else if(pld == "restore"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		PLfile = 'restore.bin';
-		preloadScripts['j06-03.js', 'loaderx.js'];		
+		preloadScripts['j03-06.js', 'loaderx.js'];		
 	}else if(pld == "dumper"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		PLfile = 'dumper.bin';
-		preloadScripts['j06-03.js', 'loaderx.js'];
+		preloadScripts['j03-06.js', 'loaderx.js'];
 	}else if(pld == "app2usb"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		PLfile = 'app2usb.bin';
-		preloadScripts['j06-03.js', 'loaderx.js'];
+		preloadScripts['j03-06.js', 'loaderx.js'];
 	}else if(pld == "ftp"){
 		setTimeout(function(){document.getElementById("progress").innerHTML="FTP Loaded.. Access at port 1337.."; }, 7000);
 		PLfile = 'ftp.bin';
-		preloadScripts['j06-03.js', 'loaderx.js'];		
+		preloadScripts['j03-06.js', 'loaderx.js'];		
 	}else if(pld == "ps4debug"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		PLfile = 'ps4debug.bin';
-		preloadScripts['j06-03.js', 'loaderx.js'];
+		preloadScripts['j03-06.js', 'loaderx.js'];
 	}else if(pld == "todex"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		PLfile = 'todex.bin';
-		preloadScripts['j06-03.js', 'loaderx.js'];
+		preloadScripts['j03-06.js', 'loaderx.js'];
 	}else if(pld == "idu"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		PLfile = 'idu.bin';
-		preloadScripts['j06-03.js', 'loaderx.js'];
+		preloadScripts['j03-06.js', 'loaderx.js'];
 	}else if(pld == "rifrenamer"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		PLfile = 'rifrenamer.bin';
-		preloadScripts['j06-03.js', 'loaderx.js'];
+		preloadScripts['j03-06.js', 'loaderx.js'];
 	}else if(pld == "linux1gb"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		PLfile = 'linuxl1gb.bin';
-		preloadScripts['j06-03.js', 'loaderx.js'];
+		preloadScripts['j03-06.js', 'loaderx.js'];
 	}else if(pld == "linux3gb"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		PLfile = 'linuxl3gb.bin';
-		preloadScripts['j06-03.js', 'loaderx.js'];
+		preloadScripts['j03-06.js', 'loaderx.js'];
 	}else if(pld == "kernelclock"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		PLfile = 'kernelclock.bin';
-		preloadScripts['j06-03.js', 'loaderx.js'];
+		preloadScripts['j03-06.js', 'loaderx.js'];
 	}else if(pld == "historyblocker"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		PLfile = 'historyblocker.bin';
-		preloadScripts['j06-03.js', 'loaderx.js'];
+		preloadScripts['j03-06.js', 'loaderx.js'];
 	}else if(pld == "web"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		PLfile = 'payload.bin';
-		preloadScripts(['j06-03.js', 'loaderx.js', 'frontend.js']);
+		preloadScripts(['j03-06.js', 'loaderx.js', 'frontend.js']);
 	}else if(pld == "disableupdates"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		PLfile = 'disableupdates.bin';
-		preloadScripts['j06-03.js', 'loaderx.js'];
+		preloadScripts['j03-06.js', 'loaderx.js'];
 	}else if(pld == "enableupdates"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		PLfile = 'enableupdates.bin';
-		preloadScripts['j06-03.js', 'loaderx.js'];
+		preloadScripts['j03-06.js', 'loaderx.js'];
 	}else if(pld == "webrte755"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		PLfile = 'webrte755.bin';
-		preloadScripts['j06-03.js', 'loaderx.js'];
+		preloadScripts['j03-06.js', 'loaderx.js'];
 	}else if(pld == "fan"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
-		preloadScripts(['j06-03.js', 'preloader.js', 'fanThreshold.js', 'loader.js']);
+		preloadScripts(['j03-06.js', 'preloader.js', 'fanThreshold.js', 'loader.js']);
 		localStorage.setItem('fanthreshold', tempC.value);
 	}else if(pld == "ArabicGuy100"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		PLfile = 'gtava1.bin';
-		preloadScripts['j06-03.js', 'loaderx.js'];
+		preloadScripts['j03-06.js', 'loaderx.js'];
 	}else if(pld == "ArabicGuy127"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		PLfile = 'gtava2.bin';
-		preloadScripts['j06-03.js', 'loaderx.js'];
+		preloadScripts['j03-06.js', 'loaderx.js'];
 	}else if(pld == "ArabicGuy134"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		PLfile = 'gtava3.bin';
-		preloadScripts['j06-03.js', 'loaderx.js'];
+		preloadScripts['j03-06.js', 'loaderx.js'];
 	}else if(pld == "rd2113"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		PLfile = 'red113.bin';
-		preloadScripts['j06-03.js', 'loaderx.js'];
+		preloadScripts['j03-06.js', 'loaderx.js'];
 	}else if(pld == "rd2119"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		PLfile = 'red119.bin';
-		preloadScripts['j06-03.js', 'loaderx.js'];
+		preloadScripts['j03-06.js', 'loaderx.js'];
 	}else if(pld == "rd2124"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		PLfile = 'red124.bin';
-		preloadScripts['j06-03.js', 'loaderx.js'];		
+		preloadScripts['j03-06.js', 'loaderx.js'];		
 	}
 	if(window.postPayload)
 		window.postPayload();
