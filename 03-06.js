@@ -488,7 +488,7 @@ function toggle_payload(pld){
     if(pld == "hen213b"){
 		document.getElementById("progress").innerHTML="Loading Hen v2.1.3b ... Please wait..";
 		PLfile = 'hen213b.bin';
-		preloadScripts(['j03-06.js', 'loaderx.js']);
+		preloadScripts(['j03-06.js', 'loaderxh.js']);
 	}else if(pld == "binloader"){
 		document.getElementById("progress").innerHTML="Awaiting Payload.. Send Payload to port 9021..";
 		preloadScripts(['preloader.js', 'loader.js']);
